@@ -21,11 +21,8 @@ exports.handler = async function (event, context, callback) {
     callback(null, {
 <<<<<<< HEAD
       statusCode: 500,
-      body: "Some error occured. Zero Zerooooz ",
-=======
-      statusCode: 501,
       body: "Some error occured. ",
->>>>>>> origin/master
+     
     });
   }
 };
